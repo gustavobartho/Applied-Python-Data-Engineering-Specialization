@@ -27,3 +27,42 @@ This course is designed for learners who want to pursue or advance their career 
 * Build ML solutions (PySpark, MLFlow) on Databricks for seamless model development and deployment.
 * Implement DataOps and DevOps practices for continuous integration and deployment (CI/CD) of data-driven applications, including automating processes.
 
+---
+
+### Week 1 - Overview and Introduction to PySpark
+In this module, you will learn how to work with different data engineering platforms, such as Hadoop and Spark, and apply their concepts to real-world scenarios. First, you will explore the fundamentals of Hadoop to store and process big data. Next, you will delve into Spark concepts, distributed computing, deferred execution, and Spark SQL. By the end of the week, you will gain hands-on experience with PySpark DataFrames, DataFrame methods, and deferred execution strategies.
+
+#### Week learning objectives:
+* Describe the challenges of building efficient and scalable data pipelines.
+* Apply strategies for ingesting and storing data in Hadoop.
+* Integrate Spark into Hadoop pipelines for data transformation and processing.
+
+---
+
+### Week 2 - Snowflake
+In this module, you will explore the Snowflake platform, gaining insights into its architecture and key concepts. Through hands-on practice in the Snowflake Web UI, you'll learn to create tables, manage warehouses, and use the Snowflake Python Connector to interact with tables. By the end of this week, you'll solidify your understanding of Snowflake's architecture and practical applications, emerging with the ability to effectively navigate and leverage the platform for data management and analysis.
+
+#### Week learning objectives:
+* Load sample data into Snowflake tables from local files or cloud storage.
+* Sign up for a Snowflake account and create a database and schema.
+* Write SQL queries to retrieve and analyze data from Snowflake tables.
+
+---
+
+### Week 3 - Azure Databricks and MLFLow
+In this module, you will practice the essential skills for seamlessly managing machine learning workflows using Databricks and MLFlow. First, you will create a Databricks workspace and configure a cluster, setting the stage for efficient data analysis. Next, you will load a sample dataset into the Databricks workspace using the power of PySpark, enabling data manipulation and exploration. Finally, you will install MLFlow either locally or within the Databricks environment, gaining the ability to orchestrate the entire machine learning lifecycle. By the end of this week, you will be able to craft, track, and manage machine learning experiments within Databricks, ensuring precision, reproducibility, and optimal decision-making throughout your data-driven journey.
+
+#### Week learning objectives:
+* Create a new Databricks workspace and configure a cluster.
+* Load a sample dataset into the Databricks workspace using PySpark.
+* Install MLFlow on your local machine or in your Databricks workspace.
+* Use MLFlow to create, track, and manage machine learning experiments within Databricks.
+
+---
+
+### Week 4 - DataOps and Operations Methodologies
+In this module, you will explore the concepts of Kaizen, DevOps, and DataOps and how these methodologies synergistically contribute to efficient and seamless data engineering workflows. Through practical examples, you will learn how Kaizen's continuous improvement philosophy, DevOps' collaborative practices, and DataOps' focus on data quality and integration converge to enhance the development, deployment, and management of data engineering platforms. By the end of this week, you will have the knowledge and perspective needed to optimize data engineering processes and deliver scalable, reliable, and high-quality solutions.
+
+#### Week learning objectives:
+* Review Kaizen, DevOps, and DataOps methodologies and their significance in data engineering platforms.
+* Develop a data engineering solution with a minimal and essential subset of the Python language and the Linux environment.
