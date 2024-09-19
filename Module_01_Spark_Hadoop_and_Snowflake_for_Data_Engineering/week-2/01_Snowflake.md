@@ -3,6 +3,7 @@
 Snowflake is a storage and computation platform designed for big data. It runs as a service on public clouds, including on AWS,
 Microsoft Azure or Google Cloud. Snowflake uses its own Snowflake SQL, so it's not using a version of SQL designed by another data product. 
 
+---
 ## **Big Data Storage**
 in terms of approaches to big data storage, there's a number of ways things have been done
 
@@ -14,6 +15,7 @@ in terms of approaches to big data storage, there's a number of ways things have
 
 Snowflake employs a hybrid architecture that combines elements of both `shared-disk` and `shared-nothing` models. Persistent data is stored in shared storage, while each processing node holds its own local copy of a subset of the data for processing. This design enables efficient concurrent processing while maintaining the simplicity of shared persistent storage.
 
+---
 ## **Accessing Snowflake**
 
 Here's a step-by-step guide for accessing Snowflake for the first time:
@@ -38,6 +40,7 @@ Here's a step-by-step guide for accessing Snowflake for the first time:
 
 * Step 10 - **Learn and Troubleshoot**: Snowflake provides comprehensive documentation and support resources. If you encounter issues or have questions, refer to the documentation or seek assistance from Snowflake's support channels.
 
+---
 ## **Detailed View Inside Snowflake**
 
 Snowflake is a cloud-based data warehousing platform that plays a crucial role in modern data engineering and analytics. It is designed to address the challenges of traditional on-premises data warehousing by providing a scalable, flexible, and fully managed cloud solution. Data engineers often work with Snowflake to design, build, and maintain data pipelines and warehouses.
@@ -56,8 +59,9 @@ For more information on Snowflake, check out the resources below:
 
 [Inside Snowflake](https://www.snowflake.com/wp-content/uploads/2014/10/A-Detailed-View-Inside-Snowflake.pdf) (Snowflake User Guide)
 
-[Snowflake Architecture](https://docs.snowflake.com/en/user-guide/intro-key-concepts)(Snowflake User Guide)
+[Snowflake Architecture](https://docs.snowflake.com/en/user-guide/intro-key-concepts) (Snowflake User Guide)
 
+---
 ## **SnowFalke Layers**
 
 Snowflake's architecture is designed into three distinct layers, each with its own functionalities and scaling capabilities:
@@ -83,3 +87,38 @@ Snowflake's architecture is designed into three distinct layers, each with its o
 Key Points
 * Scalability: Each layer can be scaled independently based on usage needs, and you only pay for what you use.
 * Optimization: The architecture supports efficient performance and cost management through its independent scaling and auto-management features.
+
+---
+## **Snowsight: The Snowflake Web Interface**
+
+While Snowflake is the underlying data warehousing platform, Snowsight is a tool built on top of Snowflake to facilitate data exploration, visualization, and collaboration. 
+
+Snowsight enhances the data exploration and analysis capabilities of data engineers, making it a valuable tool for querying, visualizing, and collaborating on data insights stored within Snowflake's data warehousing platform. Its user-friendly interface and integration with Snowflake's robust data infrastructure streamline the data engineering workflow, enabling efficient and effective data-driven decision-making.
+
+For more information on navigating Snowsight, check out [Snowsight UI Quick Tour](https://docs.snowflake.com/en/user-guide/ui-snowsight-quick-tour) (Snowflake User Guide).
+
+---
+## **Working with Warehouses**
+
+Warehouses in Snowflake provide a flexible and efficient way to manage computational resources, optimize query performance, and control costs. They empower organizations to handle a wide range of workloads, from ad-hoc analysis to data loading and production reporting, while ensuring scalability, isolation, and cost-effectiveness. Understanding how to effectively use and manage warehouses is crucial for harnessing the full power of Snowflake's cloud-based data warehousing platform.
+
+For more information on warehouses in Snowflake, check out [Working with Warehouses](https://docs.snowflake.com/user-guide/warehouses-tasks) (Snowflake User Guide).
+
+---
+## **Python Connector Documentation**
+
+A Python connector in Snowflake serves as a bridge between Snowflake's cloud-based data warehousing platform and the Python programming language. It allows data engineers and analysts to interact with Snowflake's data storage, retrieval, and processing capabilities directly from Python code. This integration enhances productivity, flexibility, and the ability to build data pipelines, conduct analyses, and develop custom solutions with ease. Other noteworthy benefits of a Python connector in Snowflake for data engineers include:
+
+1. Seamless Integration and Versatility:
+    * The Python connector enables seamless integration between Snowflake and Python, a versatile language widely used in data engineering and analysis.
+    * Data engineers can use Python's rich ecosystem for data extraction, transformation, exploration, and analysis, enhancing productivity and flexibility.
+
+2. Custom Data Workflows and Automation:
+    * Data engineers can develop custom data workflows, ETL processes, and automation scripts in Python, leveraging Snowflake's data storage and processing capabilities.
+    * Python connectors facilitate data migration, custom data processing, and orchestration of data-related tasks.
+
+3. Advanced Analytics and Machine Learning:
+    * The connector supports the integration of Snowflake data into machine learning models and advanced analytics workflows in Python.
+    * Data engineers can harness the power of Python for predictive analytics, AI-driven insights, and data-driven application development, expanding Snowflake's utility.
+
+For more information on connecting Snowflake with Python, check out [Snowflake Connector for Python](https://docs.snowflake.com/en/developer-guide/python-connector/python-connector) (Snowflake User Guide).
