@@ -66,3 +66,6 @@ In this module, you will explore the concepts of Kaizen, DevOps, and DataOps and
 #### Week learning objectives:
 * Review Kaizen, DevOps, and DataOps methodologies and their significance in data engineering platforms.
 * Develop a data engineering solution with a minimal and essential subset of the Python language and the Linux environment.
+
+---
+---
